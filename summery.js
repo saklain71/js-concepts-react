@@ -8,3 +8,9 @@
 
  const object2 = {x , y};
  console.log(object2);
+
+
+ let person =null;
+console.log(person ? person : "person is null");
+const obj = {a:1};
+console.log(Object.keys(obj).length===0);
